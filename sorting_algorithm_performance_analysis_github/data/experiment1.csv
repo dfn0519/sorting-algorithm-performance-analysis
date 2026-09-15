@@ -1,0 +1,189 @@
+DataType,Algorithm,Size,Time
+Random,Bubble,1000,0.001200
+Random,Selection,1000,0.001000
+Random,Insertion,1000,0.000500
+Reverse,Bubble,1000,0.001300
+Reverse,Selection,1000,0.000900
+Reverse,Insertion,1000,0.001000
+Sorted,Bubble,1000,0.000900
+Sorted,Selection,1000,0.001000
+Sorted,Insertion,1000,0.000000
+Almost Sorted,Bubble,1000,0.001000
+Almost Sorted,Selection,1000,0.000900
+Almost Sorted,Insertion,1000,0.000000
+Random,Bubble,5000,0.037600
+Random,Selection,5000,0.023500
+Random,Insertion,5000,0.011700
+Reverse,Bubble,5000,0.032200
+Reverse,Selection,5000,0.024000
+Reverse,Insertion,5000,0.023500
+Sorted,Bubble,5000,0.021500
+Sorted,Selection,5000,0.023200
+Sorted,Insertion,5000,0.000000
+Almost Sorted,Bubble,5000,0.024200
+Almost Sorted,Selection,5000,0.023400
+Almost Sorted,Insertion,5000,0.001600
+Random,Bubble,10000,0.177200
+Random,Selection,10000,0.092800
+Random,Insertion,10000,0.047500
+Reverse,Bubble,10000,0.130200
+Reverse,Selection,10000,0.095800
+Reverse,Insertion,10000,0.094700
+Sorted,Bubble,10000,0.086600
+Sorted,Selection,10000,0.092200
+Sorted,Insertion,10000,0.000000
+Almost Sorted,Bubble,10000,0.098900
+Almost Sorted,Selection,10000,0.092400
+Almost Sorted,Insertion,10000,0.006300
+Random,Bubble,20000,0.779700
+Random,Selection,20000,0.368900
+Random,Insertion,20000,0.188700
+Reverse,Bubble,20000,0.522400
+Reverse,Selection,20000,0.381000
+Reverse,Insertion,20000,0.379700
+Sorted,Bubble,20000,0.346700
+Sorted,Selection,20000,0.367400
+Sorted,Insertion,20000,0.000100
+Almost Sorted,Bubble,20000,0.396600
+Almost Sorted,Selection,20000,0.366900
+Almost Sorted,Insertion,20000,0.021700
+Random,Bubble,50000,5.260200
+Random,Selection,50000,2.290900
+Random,Insertion,50000,1.179500
+Reverse,Bubble,50000,3.274600
+Reverse,Selection,50000,2.380300
+Reverse,Insertion,50000,2.358400
+Sorted,Bubble,50000,2.175000
+Sorted,Selection,50000,2.293300
+Sorted,Insertion,50000,0.000100
+Almost Sorted,Bubble,50000,2.444500
+Almost Sorted,Selection,50000,2.290400
+Almost Sorted,Insertion,50000,0.093100
+Random,Merge,50000,0.009500
+Random,Quick,50000,0.004700
+Random,Radix,50000,0.003300
+Random,Heap,50000,0.008800
+Reverse,Merge,50000,0.006600
+Reverse,Quick,50000,0.001700
+Reverse,Radix,50000,0.003000
+Reverse,Heap,50000,0.006600
+Sorted,Merge,50000,0.006600
+Sorted,Quick,50000,0.001500
+Sorted,Radix,50000,0.002900
+Sorted,Heap,50000,0.006600
+Almost Sorted,Merge,50000,0.007000
+Almost Sorted,Quick,50000,0.002000
+Almost Sorted,Radix,50000,0.003100
+Almost Sorted,Heap,50000,0.007000
+Random,Merge,100000,0.018900
+Random,Quick,100000,0.009600
+Random,Radix,100000,0.005900
+Random,Heap,100000,0.018200
+Reverse,Merge,100000,0.013100
+Reverse,Quick,100000,0.003400
+Reverse,Radix,100000,0.005800
+Reverse,Heap,100000,0.013700
+Sorted,Merge,100000,0.013100
+Sorted,Quick,100000,0.003400
+Sorted,Radix,100000,0.006100
+Sorted,Heap,100000,0.014000
+Almost Sorted,Merge,100000,0.014000
+Almost Sorted,Quick,100000,0.004100
+Almost Sorted,Radix,100000,0.006000
+Almost Sorted,Heap,100000,0.014300
+Random,Merge,500000,0.102900
+Random,Quick,500000,0.049800
+Random,Radix,500000,0.034300
+Random,Heap,500000,0.110200
+Reverse,Merge,500000,0.071100
+Reverse,Quick,500000,0.018500
+Reverse,Radix,500000,0.039900
+Reverse,Heap,500000,0.077900
+Sorted,Merge,500000,0.071700
+Sorted,Quick,500000,0.018200
+Sorted,Radix,500000,0.039600
+Sorted,Heap,500000,0.079500
+Almost Sorted,Merge,500000,0.072800
+Almost Sorted,Quick,500000,0.020900
+Almost Sorted,Radix,500000,0.040600
+Almost Sorted,Heap,500000,0.080500
+Random,Merge,1000000,0.208500
+Random,Quick,1000000,0.099700
+Random,Radix,1000000,0.069700
+Random,Heap,1000000,0.238400
+Reverse,Merge,1000000,0.147600
+Reverse,Quick,1000000,0.038500
+Reverse,Radix,1000000,0.079900
+Reverse,Heap,1000000,0.167100
+Sorted,Merge,1000000,0.148100
+Sorted,Quick,1000000,0.038300
+Sorted,Radix,1000000,0.080000
+Sorted,Heap,1000000,0.169800
+Almost Sorted,Merge,1000000,0.149500
+Almost Sorted,Quick,1000000,0.040300
+Almost Sorted,Radix,1000000,0.079500
+Almost Sorted,Heap,1000000,0.170100
+Random,Merge,5000000,1.097600
+Random,Quick,5000000,0.505600
+Random,Radix,5000000,0.339200
+Random,Heap,5000000,1.490400
+Reverse,Merge,5000000,0.781600
+Reverse,Quick,5000000,0.209900
+Reverse,Radix,5000000,0.480100
+Reverse,Heap,5000000,0.933000
+Sorted,Merge,5000000,0.794600
+Sorted,Quick,5000000,0.209800
+Sorted,Radix,5000000,0.468300
+Sorted,Heap,5000000,0.961500
+Almost Sorted,Merge,5000000,0.788200
+Almost Sorted,Quick,5000000,0.210600
+Almost Sorted,Radix,5000000,0.469500
+Almost Sorted,Heap,5000000,0.955700
+Random,Merge,10000000,2.251600
+Random,Quick,10000000,1.013700
+Random,Radix,10000000,0.676800
+Random,Heap,10000000,3.457900
+Reverse,Merge,10000000,1.623200
+Reverse,Quick,10000000,0.436000
+Reverse,Radix,10000000,0.944100
+Reverse,Heap,10000000,1.954900
+Sorted,Merge,10000000,1.633900
+Sorted,Quick,10000000,0.432900
+Sorted,Radix,10000000,0.936700
+Sorted,Heap,10000000,1.975300
+Almost Sorted,Merge,10000000,1.625700
+Almost Sorted,Quick,10000000,0.439300
+Almost Sorted,Radix,10000000,0.940600
+Almost Sorted,Heap,10000000,1.983500
+Random,Merge,50000000,11.680000
+Random,Quick,50000000,5.241100
+Random,Radix,50000000,3.363600
+Random,Heap,50000000,22.495200
+Reverse,Merge,50000000,8.535300
+Reverse,Quick,50000000,2.363000
+Reverse,Radix,50000000,5.338600
+Reverse,Heap,50000000,10.499000
+Sorted,Merge,50000000,8.553400
+Sorted,Quick,50000000,2.350000
+Sorted,Radix,50000000,5.348800
+Sorted,Heap,50000000,10.624500
+Almost Sorted,Merge,50000000,8.565500
+Almost Sorted,Quick,50000000,2.352000
+Almost Sorted,Radix,50000000,5.351400
+Almost Sorted,Heap,50000000,10.634400
+Random,Merge,100000000,23.761300
+Random,Quick,100000000,10.629800
+Random,Radix,100000000,6.764900
+Random,Heap,100000000,50.619200
+Reverse,Merge,100000000,17.507000
+Reverse,Quick,100000000,4.881600
+Reverse,Radix,100000000,10.725500
+Reverse,Heap,100000000,21.903400
+Sorted,Merge,100000000,17.578000
+Sorted,Quick,100000000,4.858300
+Sorted,Radix,100000000,10.663700
+Sorted,Heap,100000000,21.923100
+Almost Sorted,Merge,100000000,17.614100
+Almost Sorted,Quick,100000000,4.878200
+Almost Sorted,Radix,100000000,10.661500
+Almost Sorted,Heap,100000000,21.895600
