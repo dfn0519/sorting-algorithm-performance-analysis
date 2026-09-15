@@ -39,21 +39,21 @@
 
 以 Random Data 為例：
 
-![Quadratic sorting algorithms](results/figures/quadratic/random.png)
+![Quadratic sorting algorithms](sorting_algorithm_performance_analysis_github/results/figures/quadratic/random.png)
 
 隨著輸入資料量增加，Bubble、Selection、Insertion 的執行時間成長速度都很明顯。這也符合這類演算法在一般情況下約為 `O(n²)` 的理論特性。
 
-不同資料分布的完整圖表可以在 [`results/figures/quadratic`](results/figures/quadratic) 查看。
+不同資料分布的完整圖表可以在 [`results/figures/quadratic`](sorting_algorithm_performance_analysis_github/results/figures/quadratic) 查看。
 
 ### 較高效率演算法比較
 
 以 Random Data 為例：
 
-![Efficient sorting algorithms](results/figures/efficient/random.png)
+![Efficient sorting algorithms](sorting_algorithm_performance_analysis_github/results/figures/efficient/random.png)
 
 Merge、Quick、Heap、Radix 在較大的資料量下仍能完成測試，因此我將它們和 `O(n²)` 演算法分開畫圖，避免時間尺度差異太大，讓較快演算法的曲線全部擠在一起看不清楚。
 
-完整圖表可以在 [`results/figures/efficient`](results/figures/efficient) 查看。
+完整圖表可以在 [`results/figures/efficient`](sorting_algorithm_performance_analysis_github/results/figures/efficient) 查看。
 
 ## 實驗二：Value Range 對效能的影響
 
@@ -77,7 +77,7 @@ n = 100000
 
 比較的演算法包含 Merge、Quick、Radix、Heap 與 Counting Sort。
 
-![Value range experiment](results/figures/value_range/value_range.png)
+![Value range experiment](sorting_algorithm_performance_analysis_github/results/figures/value_range/value_range.png)
 
 從目前測試結果可以看到，Counting Sort 在 Value Range 較小時速度非常快，但隨著 `k` 增加，所需要處理的 counting array 也會變大，因此執行時間逐漸增加。
 
@@ -154,14 +154,14 @@ pip install -r requirements.txt
 
 原始 benchmark 結果保留在：
 
-- [`data/experiment1.csv`](data/experiment1.csv)
-- [`data/experiment2.csv`](data/experiment2.csv)
+- [`data/experiment1.csv`](sorting_algorithm_performance_analysis_github/data/experiment1.csv)
+- [`data/experiment2.csv`](sorting_algorithm_performance_analysis_github/data/experiment2.csv)
 
 圖表則整理在：
 
-- [`results/figures/quadratic`](results/figures/quadratic)
-- [`results/figures/efficient`](results/figures/efficient)
-- [`results/figures/value_range`](results/figures/value_range)
+- [`results/figures/quadratic`](sorting_algorithm_performance_analysis_github/results/figures/quadratic)
+- [`results/figures/efficient`](sorting_algorithm_performance_analysis_github/results/figures/efficient)
+- [`results/figures/value_range`](sorting_algorithm_performance_analysis_github/results/figures/value_range)
 
 ## 後續可以繼續改進的地方
 
